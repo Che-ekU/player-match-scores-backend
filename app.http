@@ -1,0 +1,28 @@
+### list of players
+GET http://localhost:3000/players/
+
+### player details 
+GET http://localhost:3000/players/2/
+
+### match details
+GET http://localhost:3000/matches/18/
+
+### player match list
+GET http://localhost:3000/players/1/matches/
+
+### match players
+get http://localhost:3000/matches/3/players/
+
+### update player 
+put http://localhost:3000/players/2/
+
+Content-Type: application/json
+
+{
+   "playerName": "Ram"
+}
+
+### player score
+get http://localhost:3000/players/2/playerScores
+
+###
